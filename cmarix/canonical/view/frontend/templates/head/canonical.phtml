@@ -1,0 +1,4 @@
+<?php /** @var \Namespace\Module\Block\Content\Head\Canonical $block */?>
+<?php if ($block->getCanonicalUrl()): ?>
+    <link rel="canonical" href="<?php echo $block->getCanonicalUrl(); ?>">
+<?php endif; ?>
