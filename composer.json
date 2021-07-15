@@ -1,0 +1,22 @@
+{
+    "name": "test/test-payment",
+    "description": "Decription will be added later",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Test payment",
+            "email": "test@tst.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Test\\Testpayment\\": ""
+        }
+    }
+}
